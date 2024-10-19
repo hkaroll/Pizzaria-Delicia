@@ -1,0 +1,68 @@
+/* Estilos para o layout da pizzaria */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 70px;
+  }
+
+  /* Estilo da navbar */
+.navbar-dark .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+
+.navbar {
+  margin-bottom: 9px; /* Remove a margem inferior */
+  padding-bottom: 9px;
+}
+  
+  .navbar-dark .nav-link {
+    font-size: 1.1rem;
+    margin-left: 15px;
+  }
+
+  .nav-link:hover {
+    color: #DC3545;
+  }
+  
+  #hero {
+    background: url('/imagem/pizzza.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .pizza-hero {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+  
+  h2, h3 {
+    text-transform: uppercase;
+  }
+  
+  .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .menu-item:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #combos {
+    background: url('combo-bg.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  
+  footer {
+    background-color: #111;
+    background: url('/imagem/background.jpg') repeat center center;
+    background-size: 170px 170px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+  
+  

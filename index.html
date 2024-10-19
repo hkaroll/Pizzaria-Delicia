@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzaria Delícia</title>
+  <link rel="icon" type="image/png" href="/imagem/Pizza-logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#hero">
+                <img src="/imagem/Pizza-logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+                Pizzaria Delícia
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Cardápio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#combos">Combos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="d-flex align-items-center justify-content-center text-center">
+    <div class="container text-white">
+      <h1 class="display-3 pizza-hero">Pizzaria Delícia</h1>
+      <p class="lead pizza-hero">Descubra o sabor que você ama! As melhores pizzas, agora ao seu alcance.</p>
+      <a href="#menu" class="btn btn-danger btn-lg pizza-hero">Peça Agora</a>
+    </div>
+  </section>
+
+  <!-- Sobre a Pizzaria -->
+  <section id="sobre" class="py-5 text-center bg-light">
+    <div class="container">
+      <h2 class="text-uppercase mb-4">Sobre Nós</h2>
+      <p class="lead">Na Pizzaria Delícia, nossa paixão é fazer pizzas incríveis. Cada ingrediente é cuidadosamente selecionado para garantir a melhor qualidade e sabor. Experimente nossas receitas exclusivas, feitas com amor e dedicação para você!</p>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5 text-uppercase">Nosso Cardápio</h2>
+      <div class="row text-center">
+            <!-- Pizza 1 -->
+            <div class="col-md-4">
+            <div class="menu-item p-4 shadow-lg mb-5 bg-white rounded">
+                <img src="/imagem/Marguerita.jpg" alt="Pizza Margherita" class="img-fluid rounded-circle mb-3" style="height: 200px; width: 200px;">
+                <h3 class="text-danger">Pizza Margherita</h3>
+                <p>Molho de tomate, mussarela fresca, manjericão.</p>
+                <span class="price text-success fs-4">R$ 40,00</span><br>
+                <a href="#contato" class="btn btn-danger btn-lg pizza-hero">Peça Já</a>
+            </div>
+            </div>
+            <!-- Pizza 2 -->
+            <div class="col-md-4">
+            <div class="menu-item p-4 shadow-lg mb-5 bg-white rounded">
+                <img src="/imagem/Calabresa.jpg" alt="Pizza Calabresa" class="img-fluid rounded-circle mb-3" style="height: 200px; width: 200px;">
+                <h3 class="text-danger">Pizza Calabresa</h3>
+                <p>Mussarela, calabresa, cebola roxa e orégano.</p>
+                <span class="price text-success fs-4">R$ 45,00</span><br>
+                <a href="#contato" class="btn btn-danger btn-lg pizza-hero">Peça Já</a>
+            </div>
+            </div>
+            <!-- Pizza 3 -->
+            <div class="col-md-4">
+            <div class="menu-item p-4 shadow-lg mb-5 bg-white rounded">
+                <img src="/imagem/4-Queijos.jpg" alt="Pizza Quatro Queijos" class="img-fluid rounded-circle mb-3" style="height: 200px; width: 200px;">
+                <h3 class="text-danger">Pizza 4 Queijos</h3>
+                <p>Mussarela, gorgonzola, parmesão e provolone.</p>
+                <span class="price text-success fs-4">R$ 50,00</span><br>
+                <a href="#contato" class="btn btn-danger btn-lg pizza-hero">Peça Já</a>
+            </div>
+            </div>
+            <!--Pizza 4-->
+            <div class="col-md-4">
+                <div class="menu-item p-4 shadow-lg mb-5 bg-white rounded">
+                <img src="/imagem/Portuguesa.jpg" alt="Pizza Portuguesa" class="img-fluid rounded-circle mb-3" style="height: 200px; width: 200px;">
+                <h3 class="text-danger">Pizza Portuguesa</h3>
+                <p>Mussarela, presunto, ovo, cebola e pimentão.</p>
+                <span class="price text-success fs-4">R$ 48,00</span><br>
+                <a href="#contato" class="btn btn-danger btn-lg pizza-hero">Peça Já</a>
+                </div>
+            </div>
+            <!--Pizza 5-->
+            <div class="col-md-4">
+                <div class="menu-item p-4 shadow-lg mb-5 bg-white rounded">
+                <img src="/imagem/Frango-Catupiry.jpg" alt="Pizza Frango com Catupiry" class="img-fluid rounded-circle mb-3" style="height: 200px; width: 200px;">
+                <h3 class="text-danger">Pizza Frango com Catupiry</h3>
+                <p>Frango desfiado, catupiry, orégano.</p>
+                <span class="price text-success fs-4">R$ 46,00</span><br>
+                <a href="#contato" class="btn btn-danger btn-lg pizza-hero">Peça Já</a>
+                </div>
+            </div> 
+            <!-- Nova Pizza 6 -->
+      <div class="col-md-4">
+        <div class="menu-item p-4 shadow-lg mb-5 bg-white rounded">
+          <img src="/imagem/Pepperoni.jpg" alt="Pizza Pepperoni" class="img-fluid rounded-circle mb-3" style="height: 200px; width: 200px;">
+          <h3 class="text-danger">Pizza Pepperoni</h3>
+          <p>Mussarela, pepperoni, molho de tomate e orégano.</p>
+          <span class="price text-success fs-4">R$ 47,00</span><br>
+          <a href="#contato" class="btn btn-danger btn-lg pizza-hero">Peça Já</a>
+        </div>
+      </div>
+      <!-- Nova Pizza 7 -->
+      <div class="col-md-4">
+        <div class="menu-item p-4 shadow-lg mb-5 bg-white rounded">
+          <img src="/imagem/Vegetariana.jpg" alt="Pizza Vegetariana" class="img-fluid rounded-circle mb-3" style="height: 200px; width: 200px;">
+          <h3 class="text-danger">Pizza Vegetariana</h3>
+          <p>Molho de tomate, abobrinha, berinjela, cogumelos e rúcula.</p>
+          <span class="price text-success fs-4">R$ 42,00</span><br>
+          <a href="#contato" class="btn btn-danger btn-lg pizza-hero">Peça Já</a>
+        </div>
+      </div>
+      <!-- Nova Pizza 8 -->
+      <div class="col-md-4">
+        <div class="menu-item p-4 shadow-lg mb-5 bg-white rounded">
+          <img src="/imagem/Mexicana.jpg" alt="Pizza Mexicana" class="img-fluid rounded-circle mb-3" style="height: 200px; width: 200px;">
+          <h3 class="text-danger">Pizza Mexicana</h3>
+          <p>Molho de tomate, carne moída, jalapeños, queijo cheddar e pimentão.</p>
+          <span class="price text-success fs-4">R$ 50,00</span><br>
+          <a href="#contato" class="btn btn-danger btn-lg pizza-hero">Peça Já</a>
+        </div>
+      </div>
+      <!-- Nova Pizza 9 -->
+      <div class="col-md-4">
+        <div class="menu-item p-4 shadow-lg mb-5 bg-white rounded">
+          <img src="/imagem/Camarão.jpg" alt="Pizza de Camarão" class="img-fluid rounded-circle mb-3" style="height: 200px; width: 200px;">
+          <h3 class="text-danger">Pizza de Camarão</h3>
+          <p>Camarão, molho branco, alho e salsa.</p>
+          <span class="price text-success fs-4">R$ 60,00</span><br>
+          <a href="#contato" class="btn btn-danger btn-lg pizza-hero">Peça Já</a>   
+      </div>
+    </div>
+    <div class="container">
+        <h2 class="text-center mb-5 text-uppercase">Bebidas</h2>
+        <div class="row text-center">
+            <!-- Bebida 1 -->
+            <div class="col-md-4">
+                <div class="menu-item p-4 shadow-lg mb-5 bg-white rounded">
+                    <img src="/imagem/Jarra-Suco.jpg" alt="Suco" class="img-fluid rounded-circle mb-3" style="height: 200px; width: 200px;">
+                    <h3 class="text-danger">Suco</h3>
+                    <p>Laranja, Uva, Cajá, Maracujá, Acerola.</p>
+                    <span class="price text-success fs-4">R$ 6,00</span><br>
+                    <a href="#contato" class="btn btn-danger btn-lg pizza-hero">Peça Já</a>
+                </div>
+                </div>
+                <!-- Bebida 2 -->
+                <div class="col-md-4">
+                <div class="menu-item p-4 shadow-lg mb-5 bg-white rounded">
+                    <img src="/imagem/Refrigerante.jpg" alt="Refrigerante" class="img-fluid rounded-circle mb-3" style="height: 200px; width: 200px;">
+                    <h3 class="text-danger">Refrigerante</h3>
+                    <p>Coca-Cola, Pepsi, Guaraná, Fanta Laranja.</p>
+                    <span class="price text-success fs-4">R$ 6,00</span><br>
+                    <a href="#contato" class="btn btn-danger btn-lg pizza-hero">Peça Já</a>
+                </div>
+                </div>
+                <!-- Bebida 3 -->
+                <div class="col-md-4">
+                    <div class="menu-item p-4 shadow-lg mb-5 bg-white rounded">
+                        <img src="/imagem/Cerveja.png" alt="Cerveja" class="img-fluid rounded-circle mb-3" style="height: 200px; width: 200px;">
+                        <h3 class="text-danger">Cerveja</h3>
+                        <p>Devassa, Itaipava, Brahma, Budweiser.</p>
+                        <span class="price text-success fs-4">R$ 6,00</span><br>
+                        <a href="#contato" class="btn btn-danger btn-lg pizza-hero">Peça Já</a>
+                    </div>
+                    </div>
+        </div>
+    </div>
+    <div class="container">
+      <h2 class="text-center mb-5 text-uppercase">Sobremesas</h2>
+      <div class="row text-center">
+          <!-- Sobremesa 1 -->
+          <div class="col-md-4">
+              <div class="menu-item p-4 shadow-lg mb-5 bg-white rounded">
+                  <img src="/imagem/Brownie.jpg" alt="Brownie" class="img-fluid rounded-circle mb-3" style="height: 200px; width: 200px;">
+                  <h3 class="text-danger">Brownie</h3>
+                  <p>*pedaço</p>
+                  <span class="price text-success fs-4">R$ 8,00</span><br>
+                  <a href="#contato" class="btn btn-danger btn-lg pizza-hero">Peça Já</a>
+              </div>
+              </div>
+              <!-- Sobremesa 2 -->
+              <div class="col-md-4">
+              <div class="menu-item p-4 shadow-lg mb-5 bg-white rounded">
+                  <img src="/imagem/Pudim.jpg" alt="Pudim" class="img-fluid rounded-circle mb-3" style="height: 200px; width: 200px;">
+                  <h3 class="text-danger">Pudim</h3>
+                  <p>*pedaço</p>
+                  <span class="price text-success fs-4">R$ 9,00</span><br>
+                  <a href="#contato" class="btn btn-danger btn-lg pizza-hero">Peça Já</a>
+              </div>
+              </div>
+              <!-- Bebida 3 -->
+              <div class="col-md-4">
+                  <div class="menu-item p-4 shadow-lg mb-5 bg-white rounded">
+                      <img src="/imagem/Torta-Limão.jpg" alt="Torta de Limão" class="img-fluid rounded-circle mb-3" style="height: 200px; width: 200px;">
+                      <h3 class="text-danger">Torta de Limão</h3>
+                      <p>*pedaço</p>
+                      <span class="price text-success fs-4">R$ 9,00</span><br>
+                      <a href="#contato" class="btn btn-danger btn-lg pizza-hero">Peça Já</a>
+                  </div>
+                  </div>
+      </div>
+  </div>
+      
+    </div>
+  </section>
+
+  <!-- Combos Section -->
+  <section id="combos" class="bg-danger text-white py-5 text-center">
+    <div class="container">
+      <h2 class="text-uppercase mb-4">Combos Especiais</h2>
+      <p class="lead">Aproveite nossos combos especiais: <strong>Pizza + Bebida + Sobremesa</strong> a partir de <strong>R$ 65,00</strong>!</p>
+      <a href="#contato" class="btn btn-warning btn-lg text-dark mt-3">Peça Já o Seu Combo</a>
+    </div>
+  </section>
+
+  <!-- Contato Section -->
+  <section id="contato" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5 text-uppercase">Fale Conosco</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Endereço</h4>
+          <p>Rua da Pizzaria, 123, Centro, Cidade X</p>
+          <h4>Telefone</h4>
+          <p>(11) 98765-4321</p>
+          <h4>Email</h4>
+          <p>contato@pizzariadelicia.com</p>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="nome" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="mensagem" class="form-label">Mensagem</label>
+              <textarea class="form-control" id="mensagem" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2024 Pizzaria Delícia. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
