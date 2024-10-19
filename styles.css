@@ -30,7 +30,7 @@ body {
   }
   
   #hero {
-    background: url('/imagem/pizzza.jpg') no-repeat center center;
+    background: url('/imagem/pizzzaMenor.jpg') no-repeat center center;
     background-size: cover;
     height: 100vh;
   }
